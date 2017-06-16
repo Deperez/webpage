@@ -1,0 +1,10 @@
+[0426/105250.315:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0426/105257.555:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0426/131033.730:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0427/093250.093:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0427/105127.823:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0427/123627.528:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0502/231012.243:ERROR:crash_report_database_win.cc(426)] unexpected header
+[0502/232113.204:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Acceso denegado. (0x5)
+[0502/232113.207:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0502/232113.209:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\settings.dat: Acceso denegado. (0x5)

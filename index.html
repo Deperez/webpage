@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Compra Libros Online</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+    	.producto{
+
+    		padding: 30px 10px;
+    		border-radius: 10px;
+    		border: 1px solid #ccc;
+    		text-align: center;
+
+    	}
+
+    </style>
+  </head>
+  <body>                     
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>
+				Compra libros online
+			</h3>
+		</div>
+		</div>
+		<div class="libros-container" id=container>	
+		</div>
+	</div>
+        <div class="row">
+            <div class="col-md-12" style="border-bottom: 1px solid #ccc; margin-bottom: 30px;">
+                <h3>
+				Carrito de Compras:
+			</h3> </div>
+     </div>
+     <div class="row">
+            <div class="col-md-6">
+                <table class="table table-condensed" id=tabla_productos>
+                    <thead>
+                        <tr>
+                            <th> # </th>
+                            <th> Producto </th>
+                            <th colspan="2"> Precio </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablacompra">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <table id="tablaprecios" class="table table-condensed" style="margin-top: 30px;">
+                    <tbody>
+                     <tr>
+						<td>Total Compra:
+						</td>
+						<td id="subtotal">	
+						</td>
+						
+					</tr>
+					<tr class="active">
+						<td>Descuento:
+						</td>
+						<td id="descuento">
+							00.00 
+						</td>
+						
+					</tr>
+					<tr class="active">
+						<td>IVA: (21%)
+						</td>
+						<td id="iva">
+							00.00
+						</td>
+					</tr>
+					<tr class="success">
+						<td>Importe Total:
+						</td>
+						<td id="total">
+							00.00
+						</td>
+						
+					</tr>
+                    </tbody>
+                </table>
+            </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
